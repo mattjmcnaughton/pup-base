@@ -1,0 +1,26 @@
+galaxy_info:
+  author: mattjmcnaughton
+  description: The base pup, which must be the first pup in any kennel.
+
+  license: Apache
+
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: MacOSX
+      versions:
+        - all
+
+  galaxy_tags:
+    - sheepdoge
+
+dependencies: []

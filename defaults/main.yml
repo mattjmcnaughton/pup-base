@@ -1,0 +1,3 @@
+---
+sheepdoge_log_directory: ~/.sheepdoge/log
+sheepdoge_cron_log_name: sheepdoge-cron.log
