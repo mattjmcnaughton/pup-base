@@ -1,5 +1,10 @@
 ---
+- include: hostname.yml
+  tags:
+    - bootstrap
+
 - include: install_cron-Debian.yml
-  when: ansible_os_family == 'Debian'
+  when: sheepdoge_enable_cron and (ansible_os_family == 'Debian')
 
 - include: setup_cron.yml
+  when: sheepdoge_enable_cron
