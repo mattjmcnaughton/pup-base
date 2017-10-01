@@ -1,5 +1,6 @@
 ---
 - include: hostname.yml
+  when: ansible_os_family != 'Darwin'
   tags:
     - bootstrap
 
