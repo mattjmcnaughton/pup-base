@@ -1,10 +1,2 @@
 ---
 hostname: "{{ pup_base_vars_hostname }}"
-
-sheepdoge_enable_cron: "{{ pup_base_vars_sheepdoge_enable_cron or false }}"
-
-sheepdoge_virtualenv_path: "{{ pup_base_vars_sheepdoge_virtualenv_path or '' }}"
-sheepdoge_use_virtualenv_for_cron: "{{ pup_base_vars_sheepdoge_use_virtualenv_for_cron or false }}"
-sheepdoge_use_bashrc_for_cron: "{{ pup_base_vars_sheepdoge_use_bashrc_for_cron or false }}"
-sheepdoge_cron_interval_minutes: "{{ pup_base_vars_sheepdoge_cron_interval_minutes or 0 }}"
-sheepdoge_cron_interval_hours: "{{ pup_base_vars_sheepdoge_cron_interval_hours or *}}"

@@ -1,11 +1,3 @@
 ---
 - include: hostname.yml
   when: ansible_os_family != 'Darwin'
-  tags:
-    - bootstrap
-
-- include: install_cron-Debian.yml
-  when: sheepdoge_enable_cron and (ansible_os_family == 'Debian')
-
-- include: setup_cron.yml
-  when: sheepdoge_enable_cron
