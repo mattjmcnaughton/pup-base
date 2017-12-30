@@ -10,7 +10,7 @@ road.
 ## Variables
 
 This kennel supports the following variables:
-- `pup_base_vars_hostname` - the hostname for this machine.
+- `pup_base_main_hostname` - the hostname for this machine.
 
 ## Dependencies
 
